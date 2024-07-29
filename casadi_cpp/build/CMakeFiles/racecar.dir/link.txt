@@ -1,1 +1,0 @@
-/usr/bin/g++  -Wall -Wextra -pthread -O3   -Wl,-rpath -Wl,/home/robotic/NMPC/casadi_cpp/build CMakeFiles/racecar.dir/src/racecar.cpp.o  -o racecar   -L/usr/local/lib  -Wl,-rpath,/usr/local/lib /usr/local/lib/libcasadi.so /usr/lib/x86_64-linux-gnu/libpython3.8.so 

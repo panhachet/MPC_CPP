@@ -1,9 +1,0 @@
-/home/robotic/NMPC/casadi_cpp/build/CMakeFiles/rebuild_cache.dir
-/home/robotic/NMPC/casadi_cpp/build/CMakeFiles/nmpc.dir
-/home/robotic/NMPC/casadi_cpp/build/CMakeFiles/animation.dir
-/home/robotic/NMPC/casadi_cpp/build/CMakeFiles/racecar.dir
-/home/robotic/NMPC/casadi_cpp/build/CMakeFiles/plot1.dir
-/home/robotic/NMPC/casadi_cpp/build/CMakeFiles/plot.dir
-/home/robotic/NMPC/casadi_cpp/build/CMakeFiles/edit_cache.dir
-/home/robotic/NMPC/casadi_cpp/build/CMakeFiles/nlp_code.dir
-/home/robotic/NMPC/casadi_cpp/build/CMakeFiles/test.dir
