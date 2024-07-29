@@ -116,5 +116,5 @@ target_link_libraries(plot1 ${CASADI_LIBRARIES} ${PYTHON_LIBRARIES})
 add_executable(animation src/plot_animation.cpp)
 target_link_libraries(animation ${CASADI_LIBRARIES} ${PYTHON_LIBRARIES}) 
 
-add_executable(nmpc src/nmpc.cpp)
-target_link_libraries(nmpc ${CASADI_LIBRARIES} ${PYTHON_LIBRARIES}) 
+add_executable(mpc src/mpc.cpp)
+target_link_libraries(mpc ${CASADI_LIBRARIES} ${PYTHON_LIBRARIES}) 
