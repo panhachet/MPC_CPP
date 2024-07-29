@@ -113,12 +113,6 @@ target_link_libraries(plot ${CASADI_LIBRARIES} ${PYTHON_LIBRARIES})
 add_executable(plot1 src/plot1.cpp)
 target_link_libraries(plot1 ${CASADI_LIBRARIES} ${PYTHON_LIBRARIES}) 
 
-add_executable(nlp_code src/nlp_code.cpp)
-target_link_libraries(nlp_code ${CASADI_LIBRARIES} ${PYTHON_LIBRARIES}) 
-
-add_executable(racecar src/racecar.cpp)
-target_link_libraries(racecar ${CASADI_LIBRARIES} ${PYTHON_LIBRARIES}) 
-
 add_executable(animation src/plot_animation.cpp)
 target_link_libraries(animation ${CASADI_LIBRARIES} ${PYTHON_LIBRARIES}) 
 
