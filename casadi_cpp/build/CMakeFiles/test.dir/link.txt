@@ -1,0 +1,1 @@
+/usr/bin/g++  -Wall -Wextra -pthread -O3   -Wl,-rpath -Wl,/home/robotic/NMPC/casadi_cpp/build CMakeFiles/test.dir/src/test.cpp.o  -o test   -L/usr/local/lib  -Wl,-rpath,/usr/local/lib /usr/local/lib/libcasadi.so 
