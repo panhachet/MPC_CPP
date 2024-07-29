@@ -103,9 +103,6 @@ include_directories(${PYTHON_INCLUDE_DIRS} include)
 file(GLOB HEADER_FILES_HPP ${CMAKE_SOURCE_DIR}/include/*.hpp)
 file(GLOB HEADER_FILES_H ${CMAKE_SOURCE_DIR}/include/*.h)
 
-# casadi basic operations
-add_executable(test src/test.cpp)
-target_link_libraries(test ${CASADI_LIBRARIES})
 
 add_executable(plot src/plot.cpp)
 target_link_libraries(plot ${CASADI_LIBRARIES} ${PYTHON_LIBRARIES}) 
