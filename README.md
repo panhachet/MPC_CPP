@@ -12,7 +12,7 @@ git clone git clone https://github.com/panhachet/MPC_CPP.git
 ```
 2. Go into the respository:
 ```bash
-cd MPC_CPP
+cd MPC_CPP/casadi_cpp
 ```
 3. Make a build folder
 ```bash
