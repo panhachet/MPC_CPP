@@ -115,3 +115,6 @@ target_link_libraries(animation ${CASADI_LIBRARIES} ${PYTHON_LIBRARIES})
 
 add_executable(mpc src/mpc.cpp)
 target_link_libraries(mpc ${CASADI_LIBRARIES} ${PYTHON_LIBRARIES}) 
+
+add_executable(target_position src/target_position.cpp)
+target_link_libraries(target_position ${CASADI_LIBRARIES} ${PYTHON_LIBRARIES}) 
