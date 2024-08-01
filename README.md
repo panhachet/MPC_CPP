@@ -29,4 +29,4 @@ make
 ```
 ## NMPC 
 1. Target Position
-![result](target_position.png)
+![Result](target_position.png)
