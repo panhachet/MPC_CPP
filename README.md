@@ -28,7 +28,7 @@ cmake ..
 make
 ```
 ## NMPC 
-1. Target Position]
+1. Target Position
 
 ![MPC_CPP](Result/target_position.png)
 
