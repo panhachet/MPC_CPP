@@ -32,5 +32,10 @@ make
 
 ![MPC_CPP](Result/target_position.png)
 
+2. Static Obstacle
+
+![MPC_CPP](Result/static_obstacle.png)
+   
+
 
 
