@@ -103,9 +103,6 @@ include_directories(${PYTHON_INCLUDE_DIRS} include)
 file(GLOB HEADER_FILES_HPP ${CMAKE_SOURCE_DIR}/include/*.hpp)
 file(GLOB HEADER_FILES_H ${CMAKE_SOURCE_DIR}/include/*.h)
 
-# casadi basic operations
-add_executable(test src/test.cpp)
-target_link_libraries(test ${CASADI_LIBRARIES})
 
 add_executable(plot src/plot.cpp)
 target_link_libraries(plot ${CASADI_LIBRARIES} ${PYTHON_LIBRARIES}) 
@@ -118,3 +115,9 @@ target_link_libraries(animation ${CASADI_LIBRARIES} ${PYTHON_LIBRARIES})
 
 add_executable(mpc src/mpc.cpp)
 target_link_libraries(mpc ${CASADI_LIBRARIES} ${PYTHON_LIBRARIES}) 
+
+add_executable(target_position src/target_position.cpp)
+target_link_libraries(target_position ${CASADI_LIBRARIES} ${PYTHON_LIBRARIES}) 
+
+add_executable(static_obs src/static_obs.cpp)
+target_link_libraries(static_obs ${CASADI_LIBRARIES} ${PYTHON_LIBRARIES}) 
